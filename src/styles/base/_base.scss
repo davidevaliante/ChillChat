@@ -1,0 +1,105 @@
+$colorPrimary : rgb(94, 72, 213);
+
+:export {colorPrimary : $colorPrimary}
+
+html {
+    height: 100%;
+}
+
+body{
+  height:100%;
+}
+
+.roundedBox{
+    background-color: white;
+    border-radius: 4px;
+    padding: 8px 8px;
+}
+
+.last-child {
+  position:sticky;
+  bottom:0;
+}
+
+.wordwrap {
+   white-space: pre-wrap;      /* Webkit */
+   white-space: -moz-pre-wrap; /* Firefox */
+   white-space: -pre-wrap;     /* Opera <7 */
+   white-space: -o-pre-wrap;   /* Opera 7 */
+   word-wrap: break-word;      /* IE */
+}
+
+.scrollableList{
+    max-height:60vh;
+    overflow: auto;
+}
+
+.ownMessage{
+    background-color: rgba(137, 77, 247, 0.22);
+}
+
+.matchParentHeight{
+  height:100%;
+}
+
+.bodybackgroundcolor{
+  margin:0;
+  background-color: rgb(94, 72, 213);
+}
+
+.emailAndPasswordForm{
+  width: 20%;
+  height: 50%;
+  margin: auto;
+}
+
+.blackBg {
+  background-color: black;
+}
+
+.noselection {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+
+}
+
+.asButton{
+  cursor :pointer;
+}
+
+// Vertical Linear Layout
+.vertical_layout_center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.vertical_layout_start{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.vertical_layout_end{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.horizontal_layout{
+    display: flex;
+    flex-direction: row;
+}
+
+// Horizontal Linear Layout
+.horizontal_layout_center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
